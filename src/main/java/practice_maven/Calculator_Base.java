@@ -9,7 +9,7 @@ public class Calculator_Base {
 	public static WebDriver driver;
 	
 	public static void openbrowser() throws IOException, InterruptedException {
-	 System.setProperty("webdriver.chrome.driver","C:\\Users\\parat\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver","nileshmore96//A_TDD_Sample_Maven//TestData//chromedriver.exe");
 	 driver=new ChromeDriver();
 	 driver.get("https://www.calculator.net");
 	 driver.manage().window().maximize();
